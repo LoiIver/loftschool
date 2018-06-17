@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Задаени 2</title>
     <style>
-        .review__img{
+        .trip-description__img {
             border-radius: 50%;
+            float : left;
+            padding: 10px;
+        }
+        .trip-description__header{
+            font-family: Arial, Helvetica, sans-serif
+        }
+        .trip-description__date, .trip-description__text{
+            font-family: Arial, Helvetica, sans-serif;
+            color: grey
         }
     </style>
 </head>
-<body>
-    <div class="review">
-        <img src="/img/img1.jpg" class="review__img"  alt="Котик"/>d
-        <div class="review__content">
-            <div class="review__content-date"><b>12.10.2016</b></div>
-            <div class="review__content-header"><b>Ночные перелёты дешевле!</b></div>
-            <div class="review__content-text">
-                Летящий в небе самолёт - зрелище загадочное и роматнтическое. 
-                Крылатая машина величственно плывёт в вышине, мерцая разноцветными огнями, и почему-то кажется,
-                 что она наполнена удивительными людьми, спешашщими далеко-далеко по очень важным делам
-            </div>
-        </div>
 
+<body>
+    <div class="trip-description">
+        <img src="/img/img1.jpg" class="trip-description__img" alt="Котик" width="150px" height="150px" />
+        <div class="trip-description-item"></div>
+        <span class="trip-description__date">12.10.2016</span>
+        <br/>
+        <strong class="trip-description__header">Ночные перелёты дешевле!</strong>
+        <br/>
+        <p class="trip-description__text" float="">
+            Летящий в небе самолёт - зрелище загадочное и романтическое. <br />
+            Крылатая машина величственно плывёт в вышине, мерцая разноцветными <br />
+            огнями, и почему-то кажется, что она наполнена удивительными людьми,  <br />
+            спешашщими далеко-далеко по очень важным делам
+        </p>
     </div>
 </body>
+
 </html>
